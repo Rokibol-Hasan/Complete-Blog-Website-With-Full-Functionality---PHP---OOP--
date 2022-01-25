@@ -63,8 +63,8 @@ textarea {
 }
 
 .headersection {
-  background: #ca932f none repeat scroll 0 0;
-  color: #fff;
+  background: #01CBCB none repeat scroll 0 0;
+  color: #ffffff;
 }
 .logo {
   float: left;
@@ -102,7 +102,7 @@ textarea {
 }
 
 .icon a {
-  background: #a56e0a none repeat scroll 0 0;
+  background: #01CBCB none repeat scroll 0 0;
   border-radius: 2px;
   color: #fff;
   display: block;
@@ -123,15 +123,17 @@ textarea {
 }
 
 .searchbtn input[type="text"] {
-  border: 1px solid #a56e0a;
+  border: 1px solid #ffffff;
   width: 200px;
-  background: #ffe07c;
+  background: #01CBCB;
   font-size: 16px;
   height: 20px;
 }
 
 .searchbtn input[type="submit"] {
-  border: 1px solid #9d6602;
+  background-color: white;
+  color: black;
+  border: 1px solid #01CBCB;
   border-radius: 3px;
   font-size: 18px;
   height: 30px;
@@ -142,9 +144,9 @@ textarea {
 }
 
 .searchbtn input[type="submit"]:hover {
-  background: #b7801c none repeat scroll 0 0;
-  border: 1px solid #e6af4b;
-  color: #fff;
+  background: #ffffff none repeat scroll 0 0;
+  border: 1px solid #01CBCB;
+  color: rgb(0, 0, 0);
 }
 
 .myicon {
@@ -153,15 +155,16 @@ textarea {
 }
 
 .myicon i {
-  border: 1px solid #ca932f;
+  background-color: white;
+  border: 1px solid #01CBCB;
   border-radius: 5px;
-  color: #ca932f;
+  color: #01CBCB;
   font-size: 180px;
   padding: 0 28px;
 }
 
 .navsection {
-  background: none repeat scroll 0 0 #e6af4b;
+  background: none repeat scroll 0 0 white;
   min-height: 38px;
 }
 
@@ -172,15 +175,14 @@ textarea {
 }
 
 .navsection ul li {
-  border-left: 1px solid #fdc662;
-  border-right: 1px solid #c18a26;
+  border: 1px solid #01CBCB;
   display: block;
   float: left;
   position: relative;
 }
 
 .navsection ul li a {
-  color: #fff;
+  color: #01CBCB;
   display: block;
   font-size: 20px;
   font-weight: bold;
@@ -188,16 +190,13 @@ textarea {
 }
 
 .navsection ul li {
-  background: #e6af4b;
+  color: #01CBCB;
   float: left;
 }
 
 .navbar.navbar-expand-lg {
+  
   padding: 0px;
-}
-
-.navbar-light .navbar-nav .nav-link {
-  color: white;
 }
 
 .item {
@@ -232,8 +231,8 @@ textarea {
 }
 
 .maincontent {
-  background: #fef4e5;
-  border: 1px solid #ca932f;
+  background: white;
+  border: 1px solid #01CBCB;
   padding: 15px;
 }
 .maincontent .about img {
@@ -313,15 +312,15 @@ textarea {
 
 .samepost h2,
 .about h2 {
-  border-bottom: 2px solid #e0d6c7;
-  color: #ac7511;
+  border-bottom: 2px solid #01CBCB;
+  color: black;
   font-size: 25px;
   margin-bottom: 4px;
   padding: 10px 10px 10px 0;
 }
 
 .samepost h2 a {
-  color: #ac7511;
+  color: #01CBCB;
   text-decoration: none;
 }
 
@@ -359,17 +358,18 @@ textarea {
 }
 
 .readmore a {
-  background: #fff none repeat scroll 0 0;
-  border: 1px solid #b89961;
+  background: #01CBCB none repeat scroll 0 0;
   border-radius: 3px;
-  color: #b7801c;
+  color: white;
   font-size: 17px;
   padding: 4px 8px;
   text-decoration: none;
 }
 
 .readmore a:hover {
-  color: #e16525;
+  background-color: white;
+  color: #01CBCB;
+  border: 1px solid #01CBCB;
 }
 
 .sidebar {
@@ -385,11 +385,10 @@ textarea {
 }
 
 .samesidebar h2 {
-  background: #e6af4b none repeat scroll 0 0;
-  border-bottom: 2px solid #b7801c;
-  color: #333;
+  background: #01CBCB none repeat scroll 0 0;
+  color: white;
   margin-bottom: 8px;
-  padding: 0px;
+  padding: 10px 10px;
 }
 
 .samesidebar ul {
@@ -449,7 +448,8 @@ textarea {
 .footer {
   margin-top: 20px;
   padding: 20px 0px;
-  background-color: #ca932f;
+  background-color: #01CBCB;
+  color: white;
   text-align: center;
 }
 
@@ -504,12 +504,14 @@ textarea {
   display: block;
   text-align: center;
   padding: 10px;
+  margin-top: 90px;
 }
 
 .paginations a {
   text-decoration: none;
-  background: #b7801c;
-  color: white;
+  background:white;
+  color: #01CBCB;
+  border: 1px solid #01CBCB;
   padding-left: 5px;
   padding-right: 5px;
   padding-bottom: 4px;
@@ -517,10 +519,11 @@ textarea {
 }
 
 .paginations a:hover {
-  color: lightblue;
+  background-color: #01CBCB;
+  color: white;
   list-style: none;
 }
 #active {
-  background-color: #ca932f;
+  background-color: #01CBCB;
   color: white;
 }
